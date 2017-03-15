@@ -1,0 +1,304 @@
+body{
+	background-color: white;
+	font-size: 25px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+ul.Zoekbalk {
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+    list-style-type: none;
+    background-color: #DC143C;
+}
+
+li a{
+	display: block;
+	width: 60px
+	background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #771947;
+}
+
+header.Zoekbalk {
+	box-shadow: 0px 5px 10px #76737E;
+	position: fixed;
+	width: 100%;
+	z-index: 200;
+	top: 0px;
+}
+
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 27px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+   	cursor: not-allowed;
+}
+
+div.Dropdown-ding{
+		padding-top: auto;
+		display: inline-block;
+	}
+
+	.dropbtn {
+	    background-color: white;
+	    color: white;
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    padding-left: 10px;
+	    padding-right: 24px;
+	    font-size: 16px;
+	    border: none;
+	    cursor: pointer;
+	    height: 72px;
+	}
+
+	.dropdown {
+	    position: relative;
+	    display: inline-block;
+	}
+
+	.dropdown-content {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 5px 10px rgb(118, 115, 126);
+	    z-index: 50;
+	}
+
+	.dropdown-content a {
+	    color: black;
+	    padding: 12px 16px;
+	    text-decoration: none;
+	    display: block;
+	}
+
+	.dropdown-content a:hover {background-color: #f1f1f1}
+
+	.dropdown:hover .dropdown-content {
+	    display: block;
+	}
+
+	.dropdown:hover .dropbtn {
+	    background-color: white;
+	}
+
+div.ZD {
+	padding-right: 76px;
+}
+
+main.Balk{
+ 	background-color: #E2E0E5;
+ 	width: 65%;
+ 	height: 2000px;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	position: relative;
+ 	z-index: 100;
+ }
+
+ h1.Standaard{
+	margin-top: 0px;
+	font-family: "Comic Sans MS";
+	font-size: 70px;
+	color: #520816;
+	 text-align: center;
+}
+
+h2{
+	margin-top: 0px;
+	margin-left: 15px;
+	font-family: "Comic Sans MS";
+	font-size: 45px;
+	color: #520816;
+}
+
+div.Balk-Inhoud{
+	position: relative;
+	top: 80px;
+}
+
+p{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+img{
+	margin-left: 15px;
+}
+
+div.Mastermind{
+	position: relative;
+	top: 25px;
+	display: block;
+	margin: auto;
+	width: 700px;
+	height: 900px;
+	background-color: brown;
+	border: 8px solid;
+	border-radius: 5%;
+}
+
+div.Gat1{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border:8px solid black;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+div.Gat2{
+	position: relative;
+	left: 100px;
+	top: -792px;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border:8px solid black;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+div.Gat3{
+	position: relative;
+	left: 200px;
+	top: -1584px;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border:8px solid black;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+div.Gat4{
+	position: relative;
+	left: 300px;
+	top: -2376px;
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 8px solid black;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+div.Hulpding{
+	position: relative;
+	left: 0px;
+	top: -2970px;
+	width: 1000px;
+	height: 10px;
+	background-color: green;
+	visibility: hidden;
+}
+
+div.Master{
+	position: relative;
+	top: 0px;
+	left: 150px;
+}
+
+div.KleurknopR{
+	position: relative;
+	left: -100px;
+	top: -2380px;
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 50px;
+	background-color: red;
+}
+
+div.KleurknopGR{
+	position: relative;
+	left: -0px;
+	top: -2460px;
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 50px;
+	background-color: green;
+}
+
+div.KleurknopB{
+	position: relative;
+	left: 100px;
+	top: -2540px;
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 50px;
+	background-color: blue;
+}
+
+div.KleurknopM{
+	position: relative;
+	left: 200px;
+	top: -2620px;
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 50px;
+	background-color: magenta;
+}
+
+div.KleurknopGE{
+	position: relative;
+	left: 300px;
+	top: -2700px;
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 50px;
+	background-color: yellow;
+}
+
+div.KleurknopC{
+	position: relative;
+	left: 400px;
+	top: -2780px;
+	width: 60px;
+	height: 60px;
+	border: 10px solid black;
+	border-radius: 50px;
+	background-color: cyan;
+}
+
